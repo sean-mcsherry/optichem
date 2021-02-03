@@ -5,6 +5,6 @@ Our model treats absorption peaks as vibrational modes that are described as sim
 
 This model is best used for organic and dielectric materials in the near-to-far infrared. 
 
-![Screenshot](optical_prop_fit.png)
+![Screenshot](model_fit.png)
 
 
