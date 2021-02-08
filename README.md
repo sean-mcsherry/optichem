@@ -22,3 +22,4 @@ Some info ova here
 ===============
 some info ova here
 
+<img src="model_fit.gif" width="600" height="600"/> does this work
