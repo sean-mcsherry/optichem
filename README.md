@@ -21,7 +21,9 @@ Run the follow commands:
 A description of our tool is outlined in paper.md. 
 
 ## Validation
-<img src="IPA.png">
+We collected ATR measurements for isopropyl alcohol (IPA) and polydimethylsiloxane (PDMS) with a single bounce, diamond crystal, and incidence angle of 45 degrees. By using optichem we fit the absorbance spectrum and extracted the optical properties (seen below). Our fit was compared to the optical properteis of IPA and PDMS reported by others on refractiveindex.info. Qualitatively, our fit matches well to previously reported values. 
+
+
+<img src="readme_files/IPA.png">
 <img src="readme_files/PDMS.png">
-![](readme_files/IPA.png)
-![](readme_files/PDMS.png)
+
