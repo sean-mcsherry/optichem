@@ -8,7 +8,7 @@
 <!--te-->
 
 A python packge that extracts the optical properties of solid and liquid chemicals by fitting Attenuated Total Reflectance (ATR) measurements. Below is an example fit of the absorption spectra of isopropyl alcohol (IPA). 
-<img src="model_fit.gif">
+![](readme_files/model_fit.gif)
 
 
 
@@ -23,3 +23,5 @@ A description of our tool is outlined in paper.md.
 ## Validation
 <img src="IPA.png">
 <img src="readme_files/PDMS.png">
+![](readme_files/IPA.png)
+![](readme_files/PDMS.png)
