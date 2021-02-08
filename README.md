@@ -20,5 +20,5 @@ Run the follow commands:
 ## Documentation
 A description of our tool is outlined in paper.md. 
 
-## Tool Validation
+## Validation
 
