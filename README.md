@@ -22,4 +22,4 @@ A description of our tool is outlined in paper.md.
 
 ## Validation
 <img src="IPA.png">
-<img src="PDMS.png">
+<img src="readme_files/PDMS.png">
