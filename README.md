@@ -3,8 +3,8 @@
 <!--ts-->
    * [Installation](#installation)
    * [Usage & Tests](#usage)
-   * [optichem Wiki](#optichemWiki)
-   * [Tool Validation](#ToolValidation)
+   * [Documentation](#Documentation)
+   * [Validation](#Validation)
 <!--te-->
 
 A python packge that extracts the optical properties of solid and liquid chemicals by fitting Attenuated Total Reflectance (ATR) measurements. Below is an example fit of the absorption spectra of isopropyl alcohol (IPA). 
@@ -13,10 +13,12 @@ A python packge that extracts the optical properties of solid and liquid chemica
 
 
 ## Installation
+Run the follow commands:
 
 ## Usage
 
-## optichem Wiki
+## Documentation
+A description of our tool is outlined in paper.md. 
 
 ## Tool Validation
 
