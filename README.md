@@ -1,4 +1,4 @@
-# optichem - optical properties of unknown chemicals
+# optichem - optical properties from ATR data
 
 <!--ts-->
    * [Installation](#installation)
