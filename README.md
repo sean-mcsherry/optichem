@@ -1,7 +1,7 @@
 # optichem - optical properties from ATR data
 
 <!--ts-->
-   * [1. Installation](#installation)
+   * [1. Installation](#1. Installation)
    * [2. Usage](#usage)
    * [3. Documentation](#Documentation)
    * [4. Validation](#Validation)
