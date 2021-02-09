@@ -1,7 +1,7 @@
 # optichem - optical properties from ATR data
 
 <!--ts-->
-   * [1. Installation](#1.-installation)
+   * [1. Installation](#installation)
    * [2. Usage](#usage)
    * [3. Documentation](#Documentation)
    * [4. Validation](#Validation)
@@ -13,7 +13,7 @@
 </p>
 
 
-## 1. Installation
+## Installation
 #### 1.1 Installing Optichem
 The package is developed in *Python 3.6*. The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
 
