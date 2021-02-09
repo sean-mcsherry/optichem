@@ -13,7 +13,8 @@
 </p>
 
 
-## Installation
+## 1. Installation
+#### 1.1 Installing Optichem
 The package is developed in *Python 3.6*. The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
 
 ```
@@ -24,6 +25,10 @@ Next, install **optichem** by running the following code in the root directory:
 ```
 python setup.py install
 ```
+#### 1.2 Installing Jupyter & enabaling the ipympl backend
+
+
+
 
 ## Usage
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.md)<br/>
