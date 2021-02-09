@@ -21,7 +21,7 @@ The package is developed in *Python 3.6*. The required python libraries are spec
 pip install -r requirements.txt
 ```
 
-Next, install **optichem** by running the following code in the root directory:
+Next, install **optichem** by running the following code in the root directory of the package:
 ```
 python setup.py install
 ```
