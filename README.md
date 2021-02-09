@@ -2,9 +2,9 @@
 
 <!--ts-->
    * [1. Installation](#1-installation)
-   * [2. Usage and Tutorials](#2-usage)
+   * [2. Usage and Tutorials](#2-usage-and-tutorials)
    * [3. Documentation](#3-documentation)
-   * [4. Tool Validation](#4-tool)
+   * [4. Tool Validation](#4-tool-validation)
 <!--te-->
 
 **optichem** is a python packge used to extract the optical properties of solid and liquid chemicals by fitting Attenuated Total Reflectance (ATR) measurements. Below is an example fit of the absorption spectra and extracted optical properties of isopropyl alcohol (IPA). 
@@ -30,7 +30,7 @@ python setup.py install
 
 
 
-## 2. Usage
+## 2. Usage and Tutorials
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.md)<br/>
 Although not necessary, it is reccomended to run **optichem** with JupyterLab or Jupyter notebook. Here, you can enable the ipympl backend to take advantage of the interactive matplotlib widgets, which makes selecting a wavelength range and adding/removing vibrational modes (~absorption peaks) to plots very simple.
 
@@ -43,7 +43,7 @@ In both previous tutorials, the **optichem** module *semiauto_fit* is employed, 
 ## 3. Documentation
 A detailed description of our tool is outlined in paper.md. Further documentation can be found on the **optichem** Wiki. 
 
-## 4. Validation
+## 4. Tool Validation
 We collected ATR measurements for isopropyl alcohol (IPA) and polydimethylsiloxane (PDMS) with a single bounce, diamond crystal ATR with an incidence angle of 45 degrees. By using **optichem** we fit the absorbance spectrum and extracted the optical properties (seen below). Our fit was compared to the optical properteis of IPA and PDMS reported by others on refractiveindex.info. Qualitatively, our fit matches well to previously reported values. 
 
 <p align="center">
