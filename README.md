@@ -18,12 +18,12 @@
 The package is developed in *Python 3.6*. The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Next, install **optichem** by running the following code in the root directory of the package:
 ```
-python setup.py install
+python3 setup.py install
 ```
 #### 1.2 Installing Jupyter & enabaling the ipympl backend
 
