@@ -17,13 +17,11 @@
 Run the follow commands:
 
 
-The package is developed in *Python 3.6*.
+The package is developed in *Python 3.6*. The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
 
-The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
-[source, bash]
-----
+```
 pip install -r requirements.txt
-----
+```
 
 
 ## Usage
