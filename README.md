@@ -16,6 +16,16 @@
 ## Installation
 Run the follow commands:
 
+
+The package is developed in *Python 3.6*.
+
+The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
+[source, bash]
+----
+pip install -r requirements.txt
+----
+
+
 ## Usage
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.md)<br/>
 Although not necessary, it is reccomended to run **optichem** with JupyterLab or Jupyter notebook. Here, you can enable the ipympl backend to take advantage of the interactive matplotlib widgets, which makes selecting a wavelength range and adding/removing vibrational modes (~absorption peaks) to plots very simple.
