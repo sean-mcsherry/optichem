@@ -9,7 +9,7 @@
 
 **optichem** is a python packge used to extract the optical properties of solid and liquid chemicals by fitting Attenuated Total Reflectance (ATR) measurements. Below is an example fit of the absorption spectra and extracted optical properties of isopropyl alcohol (IPA). 
 <p align="center">
-  <img src="readme_files/model_fit.gif">
+  <img src="docs/model_fit.gif">
 </p>
 
 
@@ -33,10 +33,10 @@ A detailed description of our tool is outlined in paper.md. Further documentatio
 We collected ATR measurements for isopropyl alcohol (IPA) and polydimethylsiloxane (PDMS) with a single bounce, diamond crystal ATR with an incidence angle of 45 degrees. By using **optichem** we fit the absorbance spectrum and extracted the optical properties (seen below). Our fit was compared to the optical properteis of IPA and PDMS reported by others on refractiveindex.info. Qualitatively, our fit matches well to previously reported values. 
 
 <p align="center">
-<img src="readme_files/IPA.png">
+<img src="docs/IPA.png">
   
   
-<img src="readme_files/PDMS.png">
+<img src="docs/PDMS.png">
 </p>
 
 
