@@ -17,7 +17,7 @@
 Run the follow commands:
 
 ## Usage
-[a relative link](Tutorial.md)
+[**optichem** with Jupyter](Tutorial.md)<br/>
 Although not necessary, it is reccomended to run **optichem** with JupyterLab or Jupyter notebook. Here, you can enable the ipympl backend to take advantage of the interactive matplotlib widgets, which makes selecting a wavelength range and adding/removing vibrational modes (~absorption peaks) to plots very simple. Please navigate to [insert link here] for a comphrensive tutorial of optichem using Jupyter.
 
 Alternatively, you can run **optichem** from the terminal
