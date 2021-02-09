@@ -15,6 +15,7 @@ setup(
         "scipy>=1.5.4",
         "pandas>=1.1.5",
         "matplotlib>=3.3.4",
+        "ipympl>=0.6.3",
         ],
     author='Sean McSherry',
     author_email='mcsherry@umich.edu',
