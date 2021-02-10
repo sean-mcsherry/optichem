@@ -186,7 +186,7 @@ class model:
         plt.xlabel(self.xlabel_str)
         plt.ylabel('Absorbance')
         plt.subplots_adjust(hspace = 0.4,bottom =0.1, top=0.95)
-        plt.show()
+        
         
         def onrangeselect(xmin, xmax):
             indmin, indmax = np.searchsorted(x, (xmin, xmax))
@@ -497,6 +497,7 @@ class model:
             else:
                 self._line.set_data(x, y)
         self._figure.canvas.draw()
+        
 
     def _add_point(self, x, y=None):
         if isinstance(x, MouseEvent):
@@ -575,7 +576,7 @@ class model:
         plt.xlabel(self.xlabel_str)
         plt.ylabel('Absorbance')
         plt.legend(('Experimental Data', 'Model'),edgecolor = 'none', facecolor = 'none')
-        ax_1.set_title('Absoprtion Model',fontweight='bold')
+        ax_1.set_title('Absorption Model',fontweight='bold')
         
         ax_2 = plt.subplot(3,1,2)
         plt.plot(self.wL,self.A,color =c1, linewidth = lw)
@@ -586,7 +587,7 @@ class model:
           plt.plot(self.wL,A)
         plt.xlabel(self.xlabel_str)
         plt.ylabel('Absorbance')
-        ax_2.set_title('Absoprtion Model w/ Mode Contributions', fontweight='bold')
+        ax_2.set_title('Absorption Model w/ Mode Contributions', fontweight='bold')
 
         ax_3 = plt.subplot(3,1,3)
         N,e_p = self.get_optical_prop(self.wL,self.fit_params)
