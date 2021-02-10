@@ -31,7 +31,7 @@ To enable to the ipympl backend and use the interactive matplotlib widgets, make
 %matplotlib widget
 ```
 
-## 2. Usage and Tutorial
+## 2. Usage and Tutorials
 Please navigate to the following tutorials:
 
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.md)<br/>
