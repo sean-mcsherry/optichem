@@ -39,7 +39,7 @@ Although not necessary, it is reccomended to run **optichem** with JupyterLab or
 Alternatively, you can run **optichem** from the terminal and still take advtange of matplotlib widgets.
 
 [**optichem** with manual peak find](optichem_manual_fit.md)<br/>
-In both previous tutorials, the **optichem** module *semiauto_fit* is employed, which provides suggested vibrational modes based on the absorbance peaks in the upload ATR data. New and existing vibrational modes can be added, removed, or changed with ease by using the matplotlib widgets. However, there are scenarios in which the user wants to manually set vibrational modes in the script. This tutoriaul provides and example of how to manually set the vibrational modes. 
+In both previous tutorials, the **optichem** module *semi_auto_fit* is employed, which provides suggested vibrational modes based on the absorbance peaks in the upload ATR data. New and existing vibrational modes can be added, removed, or changed with ease by using the matplotlib widgets. However, there are scenarios in which the user wants to manually set vibrational modes in the script. This tutoriaul provides and example of how to manually set the vibrational modes. 
 
 ## 3. Documentation
 A detailed description of our tool is outlined in paper.md. Further documentation can be found on the **optichem** Wiki. 
