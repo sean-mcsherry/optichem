@@ -15,20 +15,22 @@
 
 ## 1. Installation
 #### 1.1 Installing Optichem
-The package is developed in *Python 3.6*. The required python libraries are specified in the file *requirements.txt*. To ensure all dependencies are satisfied, run the following command line:
+Download/clone **optichem** and navigate to the root directory. Install **optichem** with the following code:
 
-```
-pip3 install -r requirements.txt
-```
-
-Next, install **optichem** by running the following code in the root directory of the package:
 ```
 python3 setup.py install
 ```
+
 #### 1.2 Installing Jupyter & enabaling the ipympl backend
+It is reccommended to use and IPython notebook, such as Jupyterlab. To install, run:
+```
+pip3 install jupyterlab
+```
+TO enable to the ipympl backend and use the interactive matplotlib widgets, make sure to start each .ipynb with the following code:
 
-
-
+```
+%matplotlib widget
+```
 
 ## 2. Usage and Tutorials
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.md)<br/>
