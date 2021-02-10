@@ -15,7 +15,7 @@
 
 ## 1. Installation
 #### 1.1 Installing Optichem
-Download/clone **optichem**, navigate to the root directory, and install **optichem**:
+Download/clone **optichem**, navigate to the root directory, and install:
 ```
 git clone https://github.com/sean-mcsherry/optichem.git
 cd optichem
