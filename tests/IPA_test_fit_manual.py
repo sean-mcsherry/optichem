@@ -1,47 +1,41 @@
-# --- import and definte the class model from the optichem.peak_click module
+# import the class model from the manual_fit module
 from optichem.manual_fit import model 
 s = model()
 
-# --- set the refractive index of the ATR crystal
+# set the refractive index of the ATR crystal
 s.set_crystal_index(2.4 + 1j*1e-5)
 
-# --- set the angle of incidence (found in ATR manual)
+# set the refractive index of the ATR crystal (2.4 for diamond, 4 for Ge, 3.4 for Si, or 2.4 for ZnSe)
 s.set_angle_of_incidence(45)
 
-# --- set the high-frequency dielectric constant (found on materials SDS)
-s.set_n(1.2)
+# set the refractivde index in the visible spectrum (usually found on materials SDS)
+s.set_n(1.367)
 
-# --- set input input/output units of wavelength
-s.set_input_units('um')
-s.set_output_units('1/cm')
+# set x-axis input units of uploaded spectra and desried output units options include: '1/m', 'Hz', 'rad/s', 'nm', 'um', 'm', 'eV'
+s.set_input_units('1/cm')
+s.set_output_units('um')
 
-# --- upload data file
-s.upload('PFOA.txt')
+# upload ATR data file
+s.upload('ATR_measurements/IPA_ATR_data.txt')
 
-# --- set wavelength range manually
-s.set_range(1000, 1500) # range in 1/cm
+# set wavelength range manually
+s.set_range(6.75, 12.5) 
 
 # --- ADD MODES MANUALLY ---
-s.add_mode(1017.491088)
-s.add_mode(1105.923417)
-s.add_mode(1131.661892)
-s.add_mode(1130.756507)
-s.add_mode(1148.552932)
-s.add_mode(1149.739504)
-s.add_mode(1184.931145)
-s.add_mode(1202.760276)
-s.add_mode(1237.681808)
-s.add_mode(1249.970088)
-s.add_mode(1296.930805)
-s.add_mode(1323.981365)
-s.add_mode(1335.323329)
-s.add_mode(1366.180953)
-s.add_mode(1456.927515)
-s.add_mode(1455.488015)
-s.add_mode(1171)
-s.add_mode(1177)
-s.add_mode(1198)
-s.add_mode(1437)
+s.add_mode(6.82)
+s.add_mode(6.877)
+s.add_mode(7)
+s.add_mode(7.108)
+s.add_mode(7.264)
+s.add_mode(7.314)
+s.add_mode(7.462)
+s.add_mode(7.660)
+s.add_mode(8.617)
+s.add_mode(8.864)
+s.add_mode(9.04)
+s.add_mode(10.521)
+s.add_mode(12.236)
+
 
 # -- initiate 1st plot
 s._init_plot()
@@ -51,32 +45,7 @@ s.start_solver()
 s.plot_fit()
 
 # save optical property data
-s.save_optical_prop('PFAS_test.txt')
+s.save_optical_prop('optichem_results/IPA_optical_properties_manual.txt')
 
 # save vibrational modes for stiching
-s.save_modes('wL_range_1000_1500')
-
-# display modes
-print(s.mode_df['w0'])
-
-
-s.add_mode(1017.491088)
-s.add_mode(1105.923417)
-s.add_mode(1131.661892)
-s.add_mode(1130.756507)
-s.add_mode(1148.552932)
-s.add_mode(1149.739504)
-s.add_mode(1184.931145)
-s.add_mode(1202.760276)
-s.add_mode(1237.681808)
-s.add_mode(1249.970088)
-s.add_mode(1296.930805)
-s.add_mode(1323.981365)
-s.add_mode(1335.323329)
-s.add_mode(1366.180953)
-s.add_mode(1456.927515)
-s.add_mode(1455.488015)
-s.add_mode(1171)
-s.add_mode(1177)
-s.add_mode(1198)
-s.add_mode(1437)
+s.save_modes('optichem_results/IPA_wL_range_2')
