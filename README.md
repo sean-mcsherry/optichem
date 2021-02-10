@@ -15,8 +15,10 @@
 
 ## 1. Installation
 #### 1.1 Installing Optichem
-Download/clone **optichem** and navigate to the root directory. Install **optichem** with the following code:
+Download/clone **optichem**, navigate to the root directory, and install **optichem**:
 ```
+git clone https://github.com/sean-mcsherry/optichem.git
+cd optichem
 python3 setup.py install
 ```
 
