@@ -16,17 +16,16 @@
 ## 1. Installation
 #### 1.1 Installing Optichem
 Download/clone **optichem** and navigate to the root directory. Install **optichem** with the following code:
-
 ```
 python3 setup.py install
 ```
 
 #### 1.2 Installing Jupyter & enabaling the ipympl backend
-It is reccommended to use and IPython notebook, such as Jupyterlab. To install, run:
+It is reccommended to use an Jupyterlab, an interactive IPython notebook. To install, run:
 ```
 pip3 install jupyterlab
 ```
-TO enable to the ipympl backend and use the interactive matplotlib widgets, make sure to start each .ipynb with the following code:
+To enable to the ipympl backend and use the interactive matplotlib widgets, make sure to start each .ipynb with the following code:
 
 ```
 %matplotlib widget
