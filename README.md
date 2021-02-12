@@ -39,10 +39,10 @@ Please navigate to the following tutorials:
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.ipynb)<br/>
 Although not necessary, it is reccomended to run **optichem** with JupyterLab or Jupyter notebook. Here, you can enable the ipympl backend to take advantage of the interactive matplotlib widgets, which makes selecting a wavelength range and adding/removing vibrational modes (~absorption peaks) to plots very simple.
 
-[**optichem** from the terminal](tutorials/optichem_from_terminal.md)<br/>
+[**optichem** from the terminal](tutorials/optichem_from_terminal.ipynb)<br/>
 Alternatively, you can run **optichem** from the terminal and still take advtange of matplotlib widgets.
 
-[**optichem** with manual peak find](optichem_manual_fit.md)<br/>
+[**optichem** with manual peak find](optichem_manual_fit.ipynb)<br/>
 In both previous tutorials, the **optichem** module *semi_auto_fit* is employed, which provides suggested vibrational modes based on the absorbance peaks in the upload ATR data. New and existing vibrational modes can be added, removed, or changed with ease by using the matplotlib widgets. However, there are scenarios in which the user wants to manually set vibrational modes in the script. This tutorial provides an example of how to manually set the vibrational modes. 
 
 ## 3. Documentation
