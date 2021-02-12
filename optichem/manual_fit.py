@@ -140,7 +140,7 @@ class model:
         self.df_og = self.df_new
         
     def _init_plot(self):
-        self._figure = plt.figure(num='Add (left click), delete (right click), or drag (left click + drag) new peaks',figsize=(9,5))
+        self._figure = plt.figure(figsize=(9,5))
         axes = plt.subplot(1, 1, 1)
         plt.plot(self.wL,self.A, lw = 3, color = 'k')
         axes.grid(which="both")
