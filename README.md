@@ -47,9 +47,11 @@ Alternatively, you can run **optichem** from the terminal and still take advtang
 In both previous tutorials, the **optichem** module *semi_auto_fit* is employed, which provides suggested vibrational modes based on the absorbance peaks in the upload ATR data. New and existing vibrational modes can be added, removed, or changed with ease by using the matplotlib widgets. However, there are scenarios in which the user wants to manually set vibrational modes in the script. This tutorial provides an example of how to manually set the vibrational modes. 
 
 #### 2.3 *Stitch* together many wavelength ranges
+[**optichem** tutorial on stitching](tutorials/optichem_stitch.ipynb)<br/>
 If there are several modes in your wavelength range (>10-15) it is reccomended to split the wavelength up into a few ranges. Once you fit modes to each absoprtion spectra, you can stitch together the whole spectra. This provides a more accurate fit, however, can take several minutes to compute. Be patient.
 
 #### 2.4 Loading a fit
+[**optichem** load fit](tutorials/optichem_load.ipynb)<br/>
 Here, follow the tutorial to learn how to load your fit based on saved data.
 
 
