@@ -34,7 +34,8 @@ To enable to the ipympl backend and use the interactive matplotlib widgets, make
 ```
 
 ## 2. Usage and Tutorials
-Please navigate to the following tutorials:
+Please navigate to the following tutorials. Rendering a Jupyter notebook in GitHub may take mulitple "reloads":
+
 #### 2.1 Use the semi-automatic fitting procedure in **optichem** in Jupyter of from the terminal 
 [**optichem** with Jupyter](tutorials/optichem_with_jupyter.ipynb)<br/>
 Although not necessary, it is reccomended to run **optichem** with JupyterLab or Jupyter notebook. Here, you can enable the ipympl backend to take advantage of the interactive matplotlib widgets, which makes selecting a wavelength range and adding/removing vibrational modes (~absorption peaks) to plots very simple.
