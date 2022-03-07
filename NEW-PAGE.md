@@ -1,5 +1,5 @@
 layout: page
 title: "PAGE TITLE"
-permalink: /optichem/
+permalink: /optichem/NEW/
 
 this is a new page
